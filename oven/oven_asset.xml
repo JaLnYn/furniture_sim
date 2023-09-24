@@ -9,16 +9,16 @@
     <compiler inertiafromgeom="auto" inertiagrouprange="4 4" angle="radian"/>
 
     <asset>
-        <mesh file="../furniture_sim/oven/meshes/hood.stl" name="hood"/>
-        <mesh file="../furniture_sim/oven/meshes/lightswitch.stl" name="lightswitch"/>
-        <mesh file="../furniture_sim/oven/meshes/lightswitchbase.stl" name="lightswitchbase"/>
-        <mesh file="../furniture_sim/oven/meshes/knob.stl" name="knob"/>
-        <mesh file="../furniture_sim/oven/meshes/stoverim.stl" name="stoverim"/>
-        <mesh file="../furniture_sim/oven/meshes/burnerplate.stl" name="burnerplate"/>
-        <mesh file="../furniture_sim/oven/meshes/ovenhandle.stl" name="ovenhandle"/>
-        <mesh file="../furniture_sim/oven/meshes/oven.stl" name="oven"/>
-        <mesh file="../furniture_sim/oven/meshes/oventop.stl" name="oventop"/>
-        <mesh file="../furniture_sim/oven/meshes/ovenwindow.stl" name="ovenwindow"/>
+		<mesh file="../../furniture_sim/oven/meshes/hood.stl" name="hood"/>
+        <mesh file="../../furniture_sim/oven/meshes/lightswitch.stl" name="lightswitch"/>
+        <mesh file="../../furniture_sim/oven/meshes/lightswitchbase.stl" name="lightswitchbase"/>
+        <mesh file="../../furniture_sim/oven/meshes/knob.stl" name="knob"/>
+        <mesh file="../../furniture_sim/oven/meshes/stoverim.stl" name="stoverim"/>
+        <mesh file="../../furniture_sim/oven/meshes/burnerplate.stl" name="burnerplate"/>
+        <mesh file="../../furniture_sim/oven/meshes/ovenhandle.stl" name="ovenhandle"/>
+        <mesh file="../../furniture_sim/oven/meshes/oven.stl" name="oven"/>
+        <mesh file="../../furniture_sim/oven/meshes/oventop.stl" name="oventop"/>
+        <mesh file="../../furniture_sim/oven/meshes/ovenwindow.stl" name="ovenwindow"/>
 
         <texture name="T_oven_wood" type="cube" height="1" width="1" file="../furniture_sim/common/textures/wood0.png"/>
         <texture name="T_oven_metal" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png"/>
@@ -50,12 +50,6 @@
         <joint polycoef="0 14 0 0 0" joint1="lightswitch_joint" joint2="light_joint"/>
     </equality>
 
-    <sensor>
-        <jointpos name='knob1_joint' joint= 'knob1_joint'/>
-        <jointpos name='knob2_joint' joint= 'knob2_joint'/>
-        <jointpos name='knob3_joint' joint= 'knob3_joint'/>
-        <jointpos name='knob4_joint' joint= 'knob4_joint'/>
-        <jointpos name='lightswitch_joint' joint= 'lightswitch_joint'/>
-    </sensor>
+    
 
 </mujocoinclude>

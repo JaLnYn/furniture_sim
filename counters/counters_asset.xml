@@ -9,11 +9,11 @@
     <compiler inertiafromgeom="auto" inertiagrouprange="4 4" angle="radian"/>
 
     <asset>
-        <mesh file="../furniture_sim/counters/meshes/cabinetdrawer.stl" name="cabinetdrawer"/>
-        <mesh file="../furniture_sim/counters/meshes/cabinethandle.stl" name="cabinethandle"/>
-        <mesh file="../furniture_sim/counters/meshes/cabinetbase.stl" name="cabinetbase"/>
-        <mesh file="../furniture_sim/counters/meshes/countertop.stl" name="countertop"/>
-        <mesh file="../furniture_sim/counters/meshes/faucet.stl" name="faucet"/>
+		<mesh file="../../furniture_sim/counters/meshes/cabinetdrawer.stl" name="cabinetdrawer"/>
+        <mesh file="../../furniture_sim/counters/meshes/cabinethandle.stl" name="cabinethandle"/>
+        <mesh file="../../furniture_sim/counters/meshes/cabinetbase.stl" name="cabinetbase"/>
+        <mesh file="../../furniture_sim/counters/meshes/countertop.stl" name="countertop"/>
+        <mesh file="../../furniture_sim/counters/meshes/faucet.stl" name="faucet"/>
 
         <texture name="T_counter_metal" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png" />
         <texture name="T_counter_marble" type="cube" height="1" width="1" file="../furniture_sim/common/textures/stone2.png" />

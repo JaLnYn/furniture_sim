@@ -9,12 +9,12 @@
     <compiler inertiafromgeom="auto" inertiagrouprange="4 4" angle="radian"/>
 
     <asset>
-        <mesh file="../furniture_sim/microwave/meshes/micro.stl" name="micro"/>
-        <mesh file="../furniture_sim/microwave/meshes/microdoor.stl" name="microdoor"/>
-        <mesh file="../furniture_sim/microwave/meshes/microbutton.stl" name="microbutton"/>
-        <mesh file="../furniture_sim/microwave/meshes/microfeet.stl" name="microfeet"/>
-        <mesh file="../furniture_sim/microwave/meshes/microhandle.stl" name="microhandle"/>
-        <mesh file="../furniture_sim/microwave/meshes/microwindow.stl" name="microwindow"/>
+		<mesh file="../../furniture_sim/microwave/meshes/micro.stl" name="micro"/>
+        <mesh file="../../furniture_sim/microwave/meshes/microdoor.stl" name="microdoor"/>
+        <mesh file="../../furniture_sim/microwave/meshes/microbutton.stl" name="microbutton"/>
+        <mesh file="../../furniture_sim/microwave/meshes/microfeet.stl" name="microfeet"/>
+        <mesh file="../../furniture_sim/microwave/meshes/microhandle.stl" name="microhandle"/>
+        <mesh file="../../furniture_sim/microwave/meshes/microwindow.stl" name="microwindow"/>
 
         <texture name="T_micro_metal" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png"/>
 
@@ -34,9 +34,4 @@
             </default>
         </default>
     </default>
-
-    <sensor>
-        <jointpos name="micro0joint" joint="micro0joint"/>
-    </sensor>
-
 </mujocoinclude>

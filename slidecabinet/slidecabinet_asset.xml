@@ -26,8 +26,4 @@
         </default>
     </default>
 
-    <sensor>
-        <jointpos name="slidedoor_joint" joint="slidedoor_joint"/>
-    </sensor>
-
 </mujocoinclude>

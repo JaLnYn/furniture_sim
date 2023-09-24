@@ -29,10 +29,4 @@
         </default>
     </default>
 
-    <sensor>
-        <jointpos name="leftdoorhinge" joint="leftdoorhinge"/>
-        <jointpos name="rightdoorhinge" joint="rightdoorhinge"/>
-    </sensor>
-
-
 </mujocoinclude>
