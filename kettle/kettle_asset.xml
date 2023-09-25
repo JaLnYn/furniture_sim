@@ -13,12 +13,17 @@
 		<mesh file="../../furniture_sim/kettle/meshes/kettlehandle.stl" name="kettlehandle"/>
 
 	    <texture name="T_Green" type="cube" height="1" width="1" file="../furniture_sim/common/textures/green.png" />
+	    <texture name="T_Blue" type="cube" height="1" width="1" file="../furniture_sim/common/textures/blue.png" />
+	    <texture name="T_Red" type="cube" height="1" width="1" file="../furniture_sim/common/textures/red.png" />
+	    <texture name="T_Yellow" type="cube" height="1" width="1" file="../furniture_sim/common/textures/yellow.png" />
         <texture name="T_kettle_metal" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png" />
         <texture name="T_kettle_wood" type="cube" height="1" width="1" file="../furniture_sim/common/textures/wood1.png" />
 
 
-		<material name="kettle_Gmetal" rgba=".1 1 .1 1" texture="T_kettle_metal" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
-        <material name="kettle_green" rgba="0 1 0 1" texture="T_Green" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
+        <material name="kettle_green" rgba="1 1 1 1" texture="T_Green" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
+        <material name="kettle_red" rgba="1 1 1 1" texture="T_Red" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
+        <material name="kettle_yellow" rgba="1 1 1 1" texture="T_Yellow" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
+        <material name="kettle_blue" rgba="1 1 1 1" texture="T_Blue" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
         <material name="kettle_wood" rgba="1 1 1 1" texture="T_kettle_wood" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
         <material name="kettle_metal" rgba="1 1 1 1" texture="T_kettle_metal" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
         <material name="kettle_Rmetal" rgba="1 .1 .1 1" texture="T_kettle_metal" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false" />
