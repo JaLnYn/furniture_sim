@@ -15,12 +15,13 @@
         <geom material="kettle_metal" pos="-0.07 0 0.185" euler="0 .3 0" size="0.02 0.09" type="capsule"/>
         <geom material="kettle_wood" euler="0 2.25 0" pos="-0.116 0 0.07" size="0.021 0.08" type="cylinder"/>
 
-        <geom class="kettle_collision" pos="0 0 0.080" size="0.13 0.13 0.075" type="ellipsoid" mass="0.02"/>
+        <geom class="kettle_collision" pos="0 0 0.080" size="0.13 0.13 0.075" type="ellipsoid" mass="0.2"/>
         <geom class="kettle_collision" euler="0 1.77 0" pos=".06 0 0.259" size="0.03 0.1" type="capsule" mass="0.02"/>
         <geom class="kettle_collision" euler="0 0 0" pos="0 0 0.08" size="0.07 .08" type="cylinder" mass="0.02"/>
         <geom class="kettle_collision" pos="-0.07 0 0.185" euler="0 .3 0" size="0.02 0.09" type="capsule" mass="0.02"/>
         <geom class="kettle_collision" euler="0 2.25 0" pos="-0.116 0 0.07" size="0.021 0.08" type="cylinder" mass="0.02"/>
 
         <site type="sphere" name="kettle_site4" pos="0 0 0.259" size=".01" group="3" rgba="1 0 0 1"/>
+        <site type="sphere" name="kettle_center4" pos="0 0 0.1" size=".01" group="3" rgba="1 0 0 1"/>
     </body>
 </mujocoinclude>
